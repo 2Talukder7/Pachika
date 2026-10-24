@@ -1,13 +1,13 @@
-\# Pachika (পাচিকা) 🍲
+# Pachika (পাচিকা) 🍲
 
 
 A Bangladeshi cooking assistant that helps you discover recipes using ingredients you have at home. Chat in Bangla or English, scale recipes, use cooking timers, and get weather-based dish recommendations.
 
 
-🌐 Live Demo: pachika.onrender.com
+🌐 Live Demo: https://pachika.onrender.com/
 
 
-\## Features
+## Features
 
 
 
@@ -27,7 +27,7 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 
 
 
-\## Built With
+## Built With
 
 
 
@@ -43,7 +43,7 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 
 
 
-\## Known Limitations
+## Known Limitations
 
 
 
@@ -55,7 +55,7 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 
 
 
-\## Credits
+## Credits
 
 
 
@@ -63,5 +63,5 @@ Recipe search: \[TheMealDB](https://www.themealdb.com/) · Weather: \[Open-Meteo
 
 
 
-\*Built to make everyday cooking easier.\*
+*Built to make everyday cooking easier.*
 
