@@ -54,6 +54,8 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 \- Gemini recipe generation requires an API key and has not been fully verified.
 
 
+---------------------------------------------------------
+
 
 *Built to make everyday cooking easier.*
 
