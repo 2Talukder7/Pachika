@@ -55,13 +55,5 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 
 
 
-## Credits
-
-
-
-Recipe search: \[TheMealDB](https://www.themealdb.com/) · Weather: \[Open-Meteo](https://open-meteo.com/) · Dish photos: Wikimedia Commons (individual image licenses apply).
-
-
-
 *Built to make everyday cooking easier.*
 
