@@ -1,11 +1,10 @@
 \# Pachika (পাচিকা) 🍲
 
 
-
 A Bangladeshi cooking assistant that helps you discover recipes using ingredients you have at home. Chat in Bangla or English, scale recipes, use cooking timers, and get weather-based dish recommendations.
 
 
-
+🌐 Live Demo: pachika.onrender.com
 
 
 \## Features
