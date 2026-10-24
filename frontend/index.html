@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>পাচিকা — আপনার খাঁটি বাঙালি রান্নার সহকারী</title>
+<script>
+  (function() {
+    try {
+      const saved = localStorage.getItem('pachika_theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = saved ? saved : (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch(e) {}
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/pachika-avatar.png">
+</head>
+<body>
+
+<div class="page-frame">
+
+  <img class="corner corner-tl" src="assets/corner-ornament-t.png" alt="" aria-hidden="true">
+  <img class="corner corner-tr" src="assets/corner-ornament-t.png" alt="" aria-hidden="true">
+  <img class="corner corner-bl" src="assets/corner-ornament-t.png" alt="" aria-hidden="true">
+  <img class="corner corner-br" src="assets/corner-ornament-t.png" alt="" aria-hidden="true">
+
+  <header class="brand-header">
+    <div class="brand-logo-area">
+      <img src="assets/logo-lettering-t.png" alt="পাচিকা" class="brand-logo-img">
+    </div>
+
+    <nav class="nav-bar" aria-label="প্রধান মেনু" data-title-bn="প্রধান মেনু" data-title-en="Main navigation">
+      <button type="button" class="nav-btn active" id="navLandingBtn">
+        <span class="nav-icon">🏠</span> <span class="nav-label" data-bn="প্রধান পাতা" data-en="Home">প্রধান পাতা</span>
+      </button>
+      <button type="button" class="nav-btn" id="navChatBtn">
+        <span class="nav-icon">💬</span> <span class="nav-label" data-bn="রান্নার আলাপ" data-en="Cooking Chat">রান্নার আলাপ</span>
+      </button>
+      <button type="button" class="nav-btn" id="navWeatherBtn">
+        <span class="nav-icon">🌦️</span> <span class="nav-label" data-bn="আজকের সুপারিশ" data-en="Today's Recommendation">আজকের সুপারিশ</span>
+      </button>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="tool-btn" id="themeToggleBtn" data-title-bn="থিম পরিবর্তন" data-title-en="Toggle theme" title="থিম পরিবর্তন" aria-label="থিম পরিবর্তন">
+        <span class="theme-icon" id="themeIcon">🌙</span>
+      </button>
+      <button type="button" class="tool-btn" id="langToggleBtn" data-title-bn="ভাষা পরিবর্তন" data-title-en="Change language" title="ভাষা পরিবর্তন">
+        <span class="lang-icon">🌐</span> <span id="langLabel">English</span>
+      </button>
+      <button type="button" class="tool-btn" id="infoBtn" data-title-bn="সাহায্য ও রান্নার টিপস" data-title-en="Help and cooking tips" title="সাহায্য ও রান্নার টিপস">
+        <span data-bn="💡 টিপস" data-en="💡 Tips">💡 টিপস</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="screen-view active" id="landingScreen">
+    <div class="landing-hero">
+      <div class="landing-avatar-glow">
+        <img src="assets/pachika-avatar.png" alt="পাচিকা" class="landing-avatar">
+      </div>
+      <h1 class="landing-title" data-bn="স্বাগতম! আমি পাচিকা" data-en="Welcome! I'm Pachika">স্বাগতম! আমি পাচিকা</h1>
+      <p class="landing-subtitle" data-bn="আপনার বিশ্বস্ত বাঙালি রন্ধনশিল্পী। খাঁটি রেসিপি, যেকোনো মানুষের সংখ্যার জন্য পরিমিত মসলার স্মার্ট স্কেলিং, রান্নাঘরের লাইভ টাইমার এবং আজকের আবহাওয়ার বিশেষ খাবারের পরামর্শ।" data-en="Your trusted Bengali kitchen companion. Authentic recipes, smart spice scaling for any number of people, live kitchen timers and dish suggestions for today's weather.">আপনার বিশ্বস্ত বাঙালি রন্ধনশিল্পী। খাঁটি রেসিপি, যেকোনো মানুষের সংখ্যার জন্য পরিমিত মসলার স্মার্ট স্কেলিং, রান্নাঘরের লাইভ টাইমার এবং আজকের আবহাওয়ার বিশেষ খাবারের পরামর্শ।</p>
+
+      <div class="landing-cta-row">
+        <button type="button" class="cta-btn primary" id="startCookingBtn">
+          <span data-bn="💬 এখনই রান্না শুরু করুন" data-en="💬 Start cooking now">💬 এখনই রান্না শুরু করুন</span>
+        </button>
+        <button type="button" class="cta-btn secondary" id="viewWeatherPicksBtn">
+          <span data-bn="🌦️ আজকের সুপারিশ" data-en="🌦️ Today's Recommendation">🌦️ আজকের সুপারিশ</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🍲</div>
+        <h3 data-bn="সংরক্ষিত রেসিপি" data-en="Curated recipes">সংরক্ষিত রেসিপি</h3>
+        <p data-bn="মাংস, মাছ, পোলাও, খিচুড়ি, ঐতিহ্যবাহী ভর্তা, নাস্তা ও সুস্বাদু মিষ্টির নিখুঁত বাঙালি সংকলন।" data-en="A faithful Bengali collection of meat, fish, pulao, khichuri, classic bhortas, snacks and sweet treats.">মাংস, মাছ, পোলাও, খিচুড়ি, ঐতিহ্যবাহী ভর্তা, নাস্তা ও সুস্বাদু মিষ্টির নিখুঁত বাঙালি সংকলন।</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚖️</div>
+        <h3 data-bn="স্মার্ট ও পরিমিত স্কেলিং" data-en="Smart, balanced scaling">স্মার্ট ও পরিমিত স্কেলিং</h3>
+        <p data-bn="১ থেকে ২০ জনের জন্য লবণ, ঝাল ও পানির বৈজ্ঞানিক ও পরিমিত অনুপাত সমন্বয়।" data-en="Salt, chilli and water are adjusted in sensible proportions for 1 to 20 people.">১ থেকে ২০ জনের জন্য লবণ, ঝাল ও পানির বৈজ্ঞানিক ও পরিমিত অনুপাত সমন্বয়।</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⏱️</div>
+        <h3 data-bn="রান্নার লাইভ টাইমার" data-en="Live cooking timers">রান্নার লাইভ টাইমার</h3>
+        <p data-bn="যে ধাপগুলোতে অপেক্ষা করতে হয় সেগুলোর জন্য কাউন্টডাউন টাইমার ও সমাপ্তির মিষ্টি ধ্বনি।" data-en="Countdown timers, with a gentle chime, for the steps that need waiting.">যে ধাপগুলোতে অপেক্ষা করতে হয় সেগুলোর জন্য কাউন্টডাউন টাইমার ও সমাপ্তির মিষ্টি ধ্বনি।</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌦️</div>
+        <h3 data-bn="আজকের সুপারিশ" data-en="Today's Recommendation">আজকের সুপারিশ</h3>
+        <p data-bn="বৃষ্টিতে ভুনা খিচুড়ি, শীতে হাঁস ভুনা ও গরমে ঠান্ডা দই ঘোল — রিয়েল-টাইম আবহাওয়া অনুযায়ী সুপারিশ।" data-en="Bhuna khichuri in the rain, duck bhuna in the cold and chilled doi ghol in the heat, chosen from live weather.">বৃষ্টিতে ভুনা খিচুড়ি, শীতে হাঁস ভুনা ও গরমে ঠান্ডা দই ঘোল — রিয়েল-টাইম আবহাওয়া অনুযায়ী সুপারিশ।</p>
+      </div>
+    </div>
+
+    <div class="preview-section">
+      <h2 class="preview-title" data-bn="জনপ্রিয় কিছু বিশেষ পদ" data-en="Popular dishes">জনপ্রিয় কিছু বিশেষ পদ</h2>
+      <div class="preview-cards-grid">
+        <div class="preview-card" data-dish="খাসির মাংস ভুনা">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beef_curry_in_a_bowl.jpg/500px-Beef_curry_in_a_bowl.jpg" alt="খাসির মাংস ভুনা" class="preview-img" loading="lazy">
+          <div class="preview-info">
+            <h4 data-bn="খাসির মাংস ভুনা" data-en="Mutton Bhuna">খাসির মাংস ভুনা</h4>
+            <span data-bn="Mutton Bhuna • ৫০ মিনিট" data-en="Mutton Bhuna • 50 min">Mutton Bhuna • ৫০ মিনিট</span>
+            <button type="button" class="preview-btn" onclick="openDishInChat('খাসির মাংস ভুনা')" data-bn="রেসিপি দেখুন" data-en="View recipe">রেসিপি দেখুন</button>
+          </div>
+        </div>
+        <div class="preview-card" data-dish="খিচুড়ি">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Khichudi_-_Kolkata_2011-06-11_3959.JPG/500px-Khichudi_-_Kolkata_2011-06-11_3959.JPG" alt="খিচুড়ি" class="preview-img" loading="lazy">
+          <div class="preview-info">
+            <h4 data-bn="ভুনা খিচুড়ি" data-en="Bhuna Khichuri">ভুনা খিচুড়ি</h4>
+            <span data-bn="Khichuri • ৪৫ মিনিট" data-en="Khichuri • 45 min">Khichuri • ৪৫ মিনিট</span>
+            <button type="button" class="preview-btn" onclick="openDishInChat('খিচুড়ি')" data-bn="রেসিপি দেখুন" data-en="View recipe">রেসিপি দেখুন</button>
+          </div>
+        </div>
+        <div class="preview-card" data-dish="চিংড়ি মালাই কারি">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chingri_Malai_Curry_%28Prawn_Malai_Curry%29.jpg/500px-Chingri_Malai_Curry_%28Prawn_Malai_Curry%29.jpg" alt="চিংড়ি মালাই কারি" class="preview-img" loading="lazy">
+          <div class="preview-info">
+            <h4 data-bn="চিংড়ি মালাই কারি" data-en="Prawn Malai Curry">চিংড়ি মালাই কারি</h4>
+            <span data-bn="Prawn Malai Curry • ৩৫ মিনিট" data-en="Prawn Malai Curry • 35 min">Prawn Malai Curry • ৩৫ মিনিট</span>
+            <button type="button" class="preview-btn" onclick="openDishInChat('চিংড়ি মালাই কারি')" data-bn="রেসিপি দেখুন" data-en="View recipe">রেসিপি দেখুন</button>
+          </div>
+        </div>
+        <div class="preview-card" data-dish="বোরহানি">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Borhani.JPG/500px-Borhani.JPG" alt="বোরহানি" class="preview-img" loading="lazy">
+          <div class="preview-info">
+            <h4 data-bn="ঢাকাইয়া বোরহানি" data-en="Dhakaiya Borhani">ঢাকাইয়া বোরহানি</h4>
+            <span data-bn="Borhani • ১৫ মিনিট" data-en="Borhani • 15 min">Borhani • ১৫ মিনিট</span>
+            <button type="button" class="preview-btn" onclick="openDishInChat('বোরহানি')" data-bn="রেসিপি দেখুন" data-en="View recipe">রেসিপি দেখুন</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="screen-view" id="chatScreen">
+    <div class="app">
+
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <button class="new-chat-btn" id="newChatBtn" aria-label="নতুন আলাপ" data-title-bn="নতুন আলাপ শুরু করুন" data-title-en="Start a new chat" title="নতুন আলাপ শুরু করুন">
+            <img src="assets/pot-icon-circle-t.png" alt="" class="btn-pot-icon">
+            <span data-bn="+ নতুন আলাপ" data-en="+ New chat">+ নতুন আলাপ</span>
+          </button>
+        </div>
+
+        <div class="sidebar-search">
+          <input type="text" id="recipeSearchInput" placeholder="🔍 রেসিপি খুঁজুন..." data-ph-bn="🔍 রেসিপি খুঁজুন..." data-ph-en="🔍 Search recipes..." autocomplete="off">
+        </div>
+
+        <div class="category-tabs" id="categoryTabs"></div>
+
+        <div class="recipe-directory-header">
+          <span data-bn="রেসিপি সংকলন" data-en="Recipe collection">রেসিপি সংকলন</span> <span id="recipeCountLabel"></span>
+        </div>
+        <div class="recipe-directory" id="recipeDirectory"></div>
+
+        <div class="sidebar-spacer"></div>
+        <img class="pot-leaves-art" src="assets/pot-leaves-t.png" alt="" aria-hidden="true">
+      </aside>
+
+      <main class="main">
+        <button class="mobile-menu-btn" id="menuToggle" data-title-bn="মেনু খুলুন" data-title-en="Open menu" aria-label="মেনু খুলুন">☰</button>
+
+        <section class="chat-panel">
+          <img class="bowl-watermark" src="assets/mortar-illustration-t.png" alt="" aria-hidden="true">
+
+          <div class="voice-status-bar" id="voiceStatusBar">
+            <span class="voice-pulse"></span>
+            <span class="voice-text" id="voiceStatusText">শুনছি... বলুন!</span>
+          </div>
+
+          <div class="chat-window" id="chatWindow">
+            <div class="empty-state" id="emptyState">
+              <div class="welcome-avatar-wrap">
+                <img src="assets/pachika-avatar.png" alt="পাচিকা" class="welcome-avatar">
+              </div>
+              <h2 data-bn="আমি পাচিকা, বলুন কী রাঁধবেন?" data-en="I'm Pachika — what shall we cook?">আমি পাচিকা, বলুন কী রাঁধবেন?</h2>
+              <p class="welcome-sub" data-bn="খাবারের নাম বলুন, কতজনের জন্য রাঁধবেন জানান, অথবা ঘরে কী কী উপকরণ আছে বলুন।" data-en="Name a dish, tell me how many people you are cooking for, or list the ingredients you have at home.">খাবারের নাম বলুন, কতজনের জন্য রাঁধবেন জানান, অথবা ঘরে কী কী উপকরণ আছে বলুন।</p>
+
+              <div class="prompt-chips-label" data-bn="জনপ্রিয় কিছু প্রশ্ন:" data-en="Popular questions:">জনপ্রিয় কিছু প্রশ্ন:</div>
+              <div class="prompt-chips" id="promptChips">
+                <button type="button" class="chip" data-prompt="৪ জনের জন্য খিচুড়ি রেসিপি দাও" data-prompt-bn="৪ জনের জন্য খিচুড়ি রেসিপি দাও" data-prompt-en="khichuri for 4 people" data-bn="🍛 ৪ জনের জন্য খিচুড়ি" data-en="🍛 Khichuri for 4">🍛 ৪ জনের জন্য খিচুড়ি</button>
+                <button type="button" class="chip" data-prompt="মুরগির মাংস ভুনা" data-prompt-bn="মুরগির মাংস ভুনা" data-prompt-en="chicken bhuna" data-bn="🍗 মুরগির মাংস ভুনা" data-en="🍗 Chicken bhuna">🍗 মুরগির মাংস ভুনা</button>
+                <button type="button" class="chip" data-prompt="গরুর মাংস ভুনা" data-prompt-bn="গরুর মাংস ভুনা" data-prompt-en="beef bhuna" data-bn="🥩 গরুর মাংস ভুনা" data-en="🥩 Beef bhuna">🥩 গরুর মাংস ভুনা</button>
+                <button type="button" class="chip" data-prompt="আমার কাছে ডিম আর পেঁয়াজ আছে, কী রাঁধব?" data-prompt-bn="আমার কাছে ডিম আর পেঁয়াজ আছে, কী রাঁধব?" data-prompt-en="I have egg and onion, what can I cook?" data-bn="🥔 ডিম ও পেঁয়াজ আছে, কী রাঁধব?" data-en="🥔 I have egg & onion, what can I cook?">🥔 ডিম ও পেঁয়াজ আছে, কী রাঁধব?</button>
+                <button type="button" class="chip" data-prompt="চিংড়ি মালাই কারি" data-prompt-bn="চিংড়ি মালাই কারি" data-prompt-en="prawn malai curry" data-bn="🦐 চিংড়ি মালাই কারি" data-en="🦐 Prawn malai curry">🦐 চিংড়ি মালাই কারি</button>
+                <button type="button" class="chip" data-prompt="স্পেশাল দুধ চা বানানোর নিয়ম" data-prompt-bn="স্পেশাল দুধ চা বানানোর নিয়ম" data-prompt-en="how to make perfect tea" data-bn="☕ স্পেশাল দুধ চা" data-en="☕ Special milk tea">☕ স্পেশাল দুধ চা</button>
+                <button type="button" class="chip" data-prompt="মাংস কষানোর আসল কৌশল কী?" data-prompt-bn="মাংস কষানোর আসল কৌশল কী?" data-prompt-en="tips for kosha frying the meat" data-bn="💡 মাংস কষানোর টিপস" data-en="💡 Tips for frying (kosha) meat">💡 মাংস কষানোর টিপস</button>
+              </div>
+            </div>
+          </div>
+
+          <form class="input-bar" id="chatForm" novalidate onsubmit="return false;">
+            <textarea id="messageInput" placeholder="আপনার প্রশ্ন লিখুন (যেমন: '৪ জনের জন্য পোলাও')... (Enter দিয়ে পাঠান)" data-ph-bn="আপনার প্রশ্ন লিখুন (যেমন: '৪ জনের জন্য পোলাও')... (Enter দিয়ে পাঠান)" data-ph-en="Type your question (e.g. 'pulao for 4 people')... (press Enter to send)" rows="1" autocomplete="off"></textarea>
+            <button type="button" class="mic-btn" id="micBtn" aria-label="ভয়েস ইনপুট" data-title-bn="কথা বলে প্রশ্ন করুন" data-title-en="Ask by voice" title="কথা বলে প্রশ্ন করুন"></button>
+            <button type="submit" class="send-btn" id="sendBtn" aria-label="পাঠান" data-title-bn="পাঠান" data-title-en="Send" title="পাঠান">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+            </button>
+          </form>
+        </section>
+      </main>
+
+    </div>
+  </section>
+
+  <section class="screen-view" id="weatherScreen">
+    <div class="weather-page-container">
+      <div class="weather-header-card">
+        <div class="weather-title-area">
+          <h2 data-bn="🌦️ আজকের সুপারিশ" data-en="🌦️ Today's Recommendation">🌦️ আজকের সুপারিশ</h2>
+          <p data-bn="রিয়েল-টাইম আবহাওয়া ও ঐতিহ্যবাহী বাঙালি উৎসবের সাথে সামঞ্জস্য রেখে আজকের সেরা খাবারের পছন্দ।" data-en="The best dishes for today, chosen from live weather and traditional Bengali occasions.">রিয়েল-টাইম আবহাওয়া ও ঐতিহ্যবাহী বাঙালি উৎসবের সাথে সামঞ্জস্য রেখে আজকের সেরা খাবারের পছন্দ।</p>
+        </div>
+
+        <div class="weather-controls-bar">
+          <button type="button" class="loc-btn" id="useGeoLocationBtn">
+            <span data-bn="📍 আমার বর্তমান অবস্থান" data-en="📍 My current location">📍 আমার বর্তমান অবস্থান</span>
+          </button>
+          <div class="city-search-box">
+            <input type="text" id="cityInput" placeholder="শহরের নাম লিখুন (যেমন: Dhaka, Chittagong, Sylhet)..." data-ph-bn="শহরের নাম লিখুন (যেমন: Dhaka, Chittagong, Sylhet)..." data-ph-en="Enter a city name (e.g. Dhaka, Chittagong, Sylhet)...">
+            <button type="button" id="citySearchBtn" data-bn="অনুসন্ধান" data-en="Search">অনুসন্ধান</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="weather-loading" id="weatherLoading" style="display:none;">
+        <div class="spinner"></div>
+        <p data-bn="আবহাওয়ার তথ্য লোড হচ্ছে..." data-en="Loading weather information...">আবহাওয়ার তথ্য লোড হচ্ছে...</p>
+      </div>
+
+      <div class="weather-error" id="weatherError" style="display:none;"></div>
+
+      <div class="weather-content" id="weatherContent">
+        <div class="current-weather-banner" id="currentWeatherBanner">
+          <div class="weather-temp-block">
+            <span class="weather-icon-large" id="weatherIconLarge">🌤️</span>
+            <div>
+              <span class="weather-temp-num" id="weatherTempNum">28°C</span>
+              <span class="weather-cond-text" id="weatherCondText">আংশিক মেঘলা</span>
+            </div>
+          </div>
+          <div class="weather-meta-block">
+            <div class="meta-item"><span class="meta-label" data-bn="অবস্থান:" data-en="Location:">অবস্থান:</span> <strong id="weatherCityText">ঢাকা (Dhaka)</strong></div>
+            <div class="meta-item"><span class="meta-label" data-bn="আর্দ্রতা:" data-en="Humidity:">আর্দ্রতা:</span> <strong id="weatherHumidityText">৬৫%</strong></div>
+            <div class="meta-item"><span class="meta-label" data-bn="বৃষ্টিপাত:" data-en="Rainfall:">বৃষ্টিপাত:</span> <strong id="weatherPrecipText">০ মিমি</strong></div>
+          </div>
+        </div>
+
+        <div class="weather-reason-card" id="weatherReasonCard">
+          <h4 data-bn="💡 আজকের আবহাওয়ায় রান্নার বিশেষত্ব" data-en="💡 What suits today's weather">💡 আজকের আবহাওয়ায় রান্নার বিশেষত্ব</h4>
+          <p id="weatherReasonText">আবহাওয়া অনুযায়ী খাবার প্রস্তুত হচ্ছে...</p>
+        </div>
+
+        <div class="festive-banner-card" id="festiveBannerCard" style="display:none;">
+          <div class="festive-badge" data-bn="🎉 বিশেষ উৎসব ও আমেজ" data-en="🎉 Special occasion">🎉 বিশেষ উৎসব ও আমেজ</div>
+          <h3 id="festiveTitle">উৎসবের নাম</h3>
+          <p id="festiveDesc">উৎসবের বিবরণ...</p>
+        </div>
+
+        <div class="weather-recipes-section">
+          <h3 data-bn="আজকের আবহাওয়ায় সুপারিশকৃত খাবার" data-en="Recommended for today's weather">আজকের আবহাওয়ায় সুপারিশকৃত খাবার</h3>
+          <div class="weather-recipes-grid" id="weatherRecipesGrid"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <img class="bottom-divider" src="assets/divider-flourish-t.png" alt="" aria-hidden="true">
+</div>
+
+<template id="recipeCardTemplate">
+  <div class="recipe-card" data-recipe-id="" data-current-servings="4" data-card-lang="bn">
+
+    <div class="recipe-image-wrap">
+      <img src="" alt="" class="recipe-main-img" loading="lazy">
+      <div class="image-attribution-tag">
+        <span class="image-license-info"></span>
+      </div>
+    </div>
+
+    <div class="recipe-header">
+      <div class="recipe-header-main">
+        <span class="pot-icon">🍲</span>
+        <div>
+          <h3 class="recipe-title"></h3>
+          <span class="recipe-subtitle"></span>
+        </div>
+      </div>
+      <div class="recipe-badges">
+        <span class="badge category-badge"></span>
+        <span class="badge heat-badge"></span>
+      </div>
+    </div>
+
+    <div class="recipe-source-badge">
+      <span class="source-icon">📜</span>
+      <span class="source-text">উৎস: ঐতিহ্যবাহী খাঁটি পারিবারিক রেসিপি আর্কাইভ</span>
+    </div>
+
+    <div class="card-toolbar">
+      <button type="button" class="card-tool-btn tts-listen-btn" data-title-bn="রেসিপি শুনুন" data-title-en="Listen to the recipe" title="রেসিপি শুনুন">
+        <span class="tool-icon">🔊</span> <span class="tool-text" data-bn="শুনুন" data-en="Listen">শুনুন</span>
+      </button>
+      <button type="button" class="card-tool-btn card-lang-btn" data-title-bn="ভাষা পরিবর্তন (বাং / Eng)" data-title-en="Switch language (Bangla / Eng)" title="ভাষা পরিবর্তন (বাং / Eng)">
+        <span class="tool-icon">🌐</span> <span class="tool-text">Eng</span>
+      </button>
+      <button type="button" class="card-tool-btn copy-recipe-btn" data-title-bn="রেসিপি কপি করুন" data-title-en="Copy the recipe" title="রেসিপি কপি করুন">
+        <span class="tool-icon">📋</span> <span class="tool-text" data-bn="কপি" data-en="Copy">কপি</span>
+      </button>
+      <button type="button" class="card-tool-btn print-recipe-btn" data-title-bn="প্রিন্ট করুন" data-title-en="Print" title="প্রিন্ট করুন">
+        <span class="tool-icon">🖨️</span> <span class="tool-text" data-bn="প্রিন্ট" data-en="Print">প্রিন্ট</span>
+      </button>
+    </div>
+
+    <div class="card-servings-box">
+      <span class="scaler-label" data-bn="পরিমাণ সমন্বয়:" data-en="Adjust servings:">পরিমাণ সমন্বয়:</span>
+      <div class="scaler-controls">
+        <button type="button" class="scale-btn scale-minus" data-title-bn="১ জন কমান" data-title-en="One fewer serving" title="১ জন কমান">−</button>
+        <span class="scaler-val"><strong class="serving-number">4</strong> <span class="serving-word" data-bn="জন" data-en="servings">জন</span></span>
+        <button type="button" class="scale-btn scale-plus" data-title-bn="১ জন বাড়ান" data-title-en="One more serving" title="১ জন বাড়ান">+</button>
+      </div>
+      <span class="scaler-note" data-bn="(লবণ ও ঝাল পরিমিত ও সুষমভাবে সমন্বয় করা হয়)" data-en="(salt and chilli are scaled in balanced proportion)">(লবণ ও ঝাল পরিমিত ও সুষমভাবে সমন্বয় করা হয়)</span>
+    </div>
+
+    <div class="time-boxes">
+      <div class="time-box">
+        <span class="time-icon">⏱️</span>
+        <span class="time-label" data-bn="প্রস্তুতি" data-en="Prep">প্রস্তুতি</span>
+        <span class="time-value prep-time"></span>
+      </div>
+      <div class="time-box">
+        <span class="time-icon">🔥</span>
+        <span class="time-label" data-bn="রান্না" data-en="Cook">রান্না</span>
+        <span class="time-value cook-time"></span>
+      </div>
+      <div class="time-box">
+        <span class="time-icon">⏳</span>
+        <span class="time-label" data-bn="মোট সময়" data-en="Total time">মোট সময়</span>
+        <span class="time-value total-time"></span>
+      </div>
+    </div>
+
+    <div class="recipe-section ingredients-section">
+      <div class="section-title-row">
+        <h4 class="section-heading" data-bn="উপকরণ তালিকা" data-en="Ingredients">উপকরণ তালিকা</h4>
+        <span class="section-hint" data-bn="(রান্নাঘরে রেডি হলে টিক দিন)" data-en="(tick each one when it is ready)">(রান্নাঘরে রেডি হলে টিক দিন)</span>
+      </div>
+      <ul class="ingredient-list"></ul>
+    </div>
+
+    <div class="recipe-section steps-section">
+      <div class="section-title-row">
+        <h4 class="section-heading" data-bn="রান্নার ধাপসমূহ" data-en="Cooking steps">রান্নার ধাপসমূহ</h4>
+        <span class="section-hint" data-bn="(পর্যায়ক্রমে অনুসরণ করুন)" data-en="(follow them in order)">(পর্যায়ক্রমে অনুসরণ করুন)</span>
+      </div>
+      <ol class="steps-list"></ol>
+    </div>
+
+    <div class="recipe-section substitutions-section" style="display:none;">
+      <h4 class="section-heading" data-bn="💡 বিকল্প উপকরণ" data-en="💡 Substitutions">💡 বিকল্প উপকরণ</h4>
+      <div class="substitutions-list"></div>
+    </div>
+
+  </div>
+</template>
+
+<div class="toast" id="toastNotification"></div>
+
+<audio id="audioPlayer" style="display:none;"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

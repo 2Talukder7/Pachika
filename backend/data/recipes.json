@@ -1,0 +1,3797 @@
+{
+  "recipes": [
+    {
+      "id": "chicken_bhuna",
+      "dish": "মুরগির মাংস ভুনা",
+      "dish_en": "Chicken Bhuna",
+      "category": "bhuna",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মুরগির মাংস",
+          "name_en": "chicken",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "টমেটো কুচি",
+          "name_en": "tomato, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা গুঁড়া",
+          "name_en": "cumin powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ধনে গুঁড়া",
+          "name_en": "coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "গরম মসলা গুঁড়া",
+          "name_en": "garam masala powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 35,
+      "total_time_min": 50,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মুরগির মাংস ধুয়ে পানি ঝরিয়ে নিন।",
+          "instruction_en": "Wash chicken and drain well.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ ভেজে বাদামি করুন।",
+          "instruction_en": "Fry onion in oil until golden.",
+          "duration_min": 6,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন বাটা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste and cook.",
+          "duration_min": 2,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "টমেটো ও সব গুঁড়া মসলা দিয়ে কষিয়ে নিন।",
+          "instruction_en": "Add tomato and all powdered spices, cook well.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "মুরগি দিয়ে ভালোভাবে কষান যতক্ষণ না তেল ছাড়ে।",
+          "instruction_en": "Add chicken and cook until oil separates.",
+          "duration_min": 12,
+          "heat": "medium-high"
+        },
+        {
+          "order": 6,
+          "instruction": "সামান্য পানি দিয়ে ঢেকে মাংস সেদ্ধ করুন।",
+          "instruction_en": "Add a little water, cover, and cook until tender.",
+          "duration_min": 10,
+          "heat": "medium"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_curry_ready_to_serve.jpg/500px-Chicken_curry_ready_to_serve.jpg",
+        "alt": "Authentic spicy Bengali chicken bhuna in a serving bowl",
+        "alt_bn": "বাঙালি ঐতিহ্যবাহী মুরগির মাংস ভুনা",
+        "author": "Ramesh NG",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_curry_ready_to_serve.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        },
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "beef_bhuna",
+      "dish": "গরুর মাংস ভুনা",
+      "dish_en": "Beef Bhuna",
+      "category": "bhuna",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "গরুর মাংস",
+          "name_en": "beef",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা গুঁড়া",
+          "name_en": "cumin powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ধনে গুঁড়া",
+          "name_en": "coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "এলাচ-দারুচিনি-তেজপাতা",
+          "name_en": "cardamom, cinnamon, bay leaf",
+          "amount": 1,
+          "unit": "set"
+        },
+        {
+          "name": "গরম মসলা গুঁড়া",
+          "name_en": "garam masala powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 5,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 20,
+      "cook_time_min": 65,
+      "total_time_min": 85,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মাংস ধুয়ে দই ও অর্ধেক মসলা দিয়ে ম্যারিনেট করুন।",
+          "instruction_en": "Wash beef and marinate with yogurt and half the spices.",
+          "duration_min": 20,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে এলাচ-দারুচিনি-তেজপাতা ফোড়ন দিন।",
+          "instruction_en": "Temper oil with whole spices.",
+          "duration_min": 2,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "পেঁয়াজ ভেজে বাদামি করুন।",
+          "instruction_en": "Fry onion until golden.",
+          "duration_min": 8,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "আদা-রসুন বাটা ও বাকি গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste and remaining spices, cook.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "ম্যারিনেট করা মাংস দিয়ে ভালোভাবে কষান।",
+          "instruction_en": "Add marinated beef and cook until well browned.",
+          "duration_min": 15,
+          "heat": "medium-high"
+        },
+        {
+          "order": 6,
+          "instruction": "পানি দিয়ে ঢেকে মাংস নরম না হওয়া পর্যন্ত রান্না করুন।",
+          "instruction_en": "Add water, cover, and simmer until tender.",
+          "duration_min": 35,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beef_curry_in_a_bowl.jpg/500px-Beef_curry_in_a_bowl.jpg",
+        "alt": "Traditional Bengali rich beef bhuna with caramelized onion gravy",
+        "alt_bn": "ঐতিহ্যবাহী স্বাদের গরুর মাংস ভুনা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Beef_curry_in_a_bowl.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        },
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "mutton_bhuna",
+      "dish": "খাসির মাংস ভুনা",
+      "dish_en": "Mutton Bhuna",
+      "category": "bhuna",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "খাসির মাংস",
+          "name_en": "mutton",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা গুঁড়া",
+          "name_en": "cumin powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ধনে গুঁড়া",
+          "name_en": "coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "গরম মসলা গুঁড়া",
+          "name_en": "garam masala powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 5,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 20,
+      "cook_time_min": 70,
+      "total_time_min": 90,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মাংস ধুয়ে দই দিয়ে ম্যারিনেট করে রাখুন।",
+          "instruction_en": "Wash mutton and marinate with yogurt.",
+          "duration_min": 20,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ বাদামি করে ভাজুন।",
+          "instruction_en": "Fry onion in oil until golden.",
+          "duration_min": 8,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন বাটা ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste and powdered spices, cook.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "মাংস দিয়ে তেল ছাড়া পর্যন্ত কষান।",
+          "instruction_en": "Add mutton and cook until oil separates.",
+          "duration_min": 15,
+          "heat": "medium-high"
+        },
+        {
+          "order": 5,
+          "instruction": "পানি দিয়ে ঢেকে মাংস নরম না হওয়া পর্যন্ত সেদ্ধ করুন।",
+          "instruction_en": "Add water, cover, and cook until tender.",
+          "duration_min": 40,
+          "heat": "low"
+        },
+        {
+          "order": 6,
+          "instruction": "গরম মসলা ছিটিয়ে নামিয়ে নিন।",
+          "instruction_en": "Sprinkle garam masala and remove from heat.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beef_curry_in_a_bowl.jpg/500px-Beef_curry_in_a_bowl.jpg",
+        "alt": "Tender Bengali mutton bhuna cooked with aromatic whole spices",
+        "alt_bn": "খাসির মাংস ভুনা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Beef_curry_in_a_bowl.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        },
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "duck_bhuna",
+      "dish": "হাঁসের মাংস ভুনা",
+      "dish_en": "Duck Bhuna",
+      "category": "bhuna",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "হাঁসের মাংস",
+          "name_en": "duck meat",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "নারকেল বাটা",
+          "name_en": "coconut paste",
+          "amount": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা গুঁড়া",
+          "name_en": "cumin powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ধনে গুঁড়া",
+          "name_en": "coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 5,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 20,
+      "cook_time_min": 75,
+      "total_time_min": 95,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "হাঁসের মাংস ভালোভাবে ধুয়ে পরিষ্কার করুন।",
+          "instruction_en": "Wash and clean the duck meat thoroughly.",
+          "duration_min": 15,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ বাদামি করে ভাজুন।",
+          "instruction_en": "Fry onion in oil until golden.",
+          "duration_min": 8,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন বাটা ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste and spices, cook.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "মাংস দিয়ে ভালোভাবে কষান।",
+          "instruction_en": "Add duck meat and cook well.",
+          "duration_min": 15,
+          "heat": "medium-high"
+        },
+        {
+          "order": 5,
+          "instruction": "পানি দিয়ে ঢেকে মাংস নরম না হওয়া পর্যন্ত রান্না করুন।",
+          "instruction_en": "Add water, cover, cook until tender (duck takes longer).",
+          "duration_min": 45,
+          "heat": "low"
+        },
+        {
+          "order": 6,
+          "instruction": "নারকেল বাটা দিয়ে কিছুক্ষণ কষিয়ে নামান।",
+          "instruction_en": "Stir in coconut paste briefly and remove from heat.",
+          "duration_min": 3,
+          "heat": "medium"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_curry_ready_to_serve.jpg/500px-Chicken_curry_ready_to_serve.jpg",
+        "alt": "Traditional winter special Bengali duck bhuna",
+        "alt_bn": "শীতের স্পেশাল হাঁসের মাংস ভুনা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_curry_ready_to_serve.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "fish_bhuna",
+      "dish": "মাছ ভুনা",
+      "dish_en": "Fish Bhuna",
+      "category": "bhuna",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মাছ (রুই/কাতলা)",
+          "name_en": "fish (rui/katla)",
+          "amount": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "টমেটো কুচি",
+          "name_en": "tomato, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা গুঁড়া",
+          "name_en": "cumin powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 5,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "total_time_min": 40,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মাছ ধুয়ে হলুদ-লবণ মাখিয়ে ভেজে তুলে রাখুন।",
+          "instruction_en": "Wash fish, rub with turmeric-salt, fry and set aside.",
+          "duration_min": 8,
+          "heat": "medium-high"
+        },
+        {
+          "order": 2,
+          "instruction": "একই তেলে পেঁয়াজ বাদামি করে ভাজুন।",
+          "instruction_en": "In the same oil, fry onion until golden.",
+          "duration_min": 6,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন বাটা, টমেটো ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste, tomato, and spices, cook.",
+          "duration_min": 6,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "সামান্য পানি দিয়ে মসলা কষিয়ে নিন।",
+          "instruction_en": "Add a little water and cook the masala down.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "ভাজা মাছ দিয়ে অল্প আঁচে ৫ মিনিট রাখুন।",
+          "instruction_en": "Add fried fish and simmer gently for 5 minutes.",
+          "duration_min": 5,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Fish_curry_%28Meen_curry%29.JPG/500px-Fish_curry_%28Meen_curry%29.JPG",
+        "alt": "Bengali fish bhuna cooked in mustard oil and onion relish",
+        "alt_bn": "সরিষার তেলে রান্না সুস্বাদু মাছ ভুনা",
+        "author": "Augustus Binu",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fish_curry_(Meen_curry).JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Rui / Rohu fish",
+          "ingredient_bn": "রুই মাছ",
+          "substitute": "Catla, Tilapia, or Basa fish fillets",
+          "substitute_bn": "কাতলা, তিলাপিয়া বা বাসা মাছের ফিলে",
+          "impact": "Mild change in texture; tilapia and basa cook slightly faster.",
+          "impact_bn": "মাছের টেক্সচারে সামান্য পরিবর্তন আসবে, তিলাপিয়া ও বাসা কিছুটা দ্রুত সেদ্ধ হবে।"
+        },
+        {
+          "ingredient": "Mustard oil",
+          "ingredient_bn": "সরিষার তেল",
+          "substitute": "Refined sunflower or soybean oil",
+          "substitute_bn": "সয়াবিন বা সূর্যমুখী তেল",
+          "impact": "Milder aroma without traditional mustard pungency.",
+          "impact_bn": "সরিষার খাঁটি ঝাঁঝ থাকবে না, তবে হালকা ও সুস্বাদু স্বাদ হবে।"
+        }
+      ]
+    },
+    {
+      "id": "chicken_curry",
+      "dish": "মুরগির মাংসের ঝোল",
+      "dish_en": "Chicken Curry",
+      "category": "curry",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মুরগির মাংস",
+          "name_en": "chicken",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "আলু",
+          "name_en": "potato",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা-ধনে গুঁড়া",
+          "name_en": "cumin-coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 3,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "total_time_min": 45,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "আলু ও মাংস ধুয়ে রাখুন।",
+          "instruction_en": "Wash potato and chicken.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ ভেজে নিন।",
+          "instruction_en": "Fry onion in oil.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic and spices, cook.",
+          "duration_min": 4,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "মাংস ও আলু দিয়ে ভালোভাবে কষান।",
+          "instruction_en": "Add chicken and potato, cook well.",
+          "duration_min": 8,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "পানি দিয়ে ঝোল ফুটিয়ে নিন।",
+          "instruction_en": "Add water and bring the curry to a boil.",
+          "duration_min": 15,
+          "heat": "medium"
+        },
+        {
+          "order": 6,
+          "instruction": "মাংস সেদ্ধ হলে নামিয়ে পরিবেশন করুন।",
+          "instruction_en": "Once chicken is cooked through, serve.",
+          "duration_min": 3,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_curry_ready_to_serve.jpg/500px-Chicken_curry_ready_to_serve.jpg",
+        "alt": "Classic Bengali home-style chicken curry with potato",
+        "alt_bn": "আলু দিয়ে ঘরোয়া মুরগির ঝোল কারি",
+        "author": "Ramesh NG",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_curry_ready_to_serve.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "beef_curry",
+      "dish": "গরুর মাংসের ঝোল",
+      "dish_en": "Beef Curry",
+      "category": "curry",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "গরুর মাংস",
+          "name_en": "beef",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "আলু",
+          "name_en": "potato",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা-ধনে গুঁড়া",
+          "name_en": "cumin-coriander powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 4,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 60,
+      "total_time_min": 75,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মাংস ধুয়ে পানি ঝরিয়ে নিন।",
+          "instruction_en": "Wash beef and drain.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ ভেজে নিন।",
+          "instruction_en": "Fry onion in oil.",
+          "duration_min": 6,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic and spices, cook.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "মাংস দিয়ে তেল ছাড়া পর্যন্ত কষান।",
+          "instruction_en": "Add beef and cook until oil separates.",
+          "duration_min": 12,
+          "heat": "medium-high"
+        },
+        {
+          "order": 5,
+          "instruction": "পানি ও আলু দিয়ে ঢেকে মাংস নরম না হওয়া পর্যন্ত রান্না করুন।",
+          "instruction_en": "Add water and potato, cover, cook until tender.",
+          "duration_min": 40,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beef_curry_in_a_bowl.jpg/500px-Beef_curry_in_a_bowl.jpg",
+        "alt": "Slow-cooked Bengali beef curry with spiced gravy",
+        "alt_bn": "গরুর মাংসের পাতলা ঝোল তরকারি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Beef_curry_in_a_bowl.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "fish_curry",
+      "dish": "মাছের ঝোল",
+      "dish_en": "Fish Curry",
+      "category": "curry",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মাছ",
+          "name_en": "fish",
+          "amount": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "আলু",
+          "name_en": "potato",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "ধনে পাতা",
+          "name_en": "coriander leaves",
+          "amount": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 2.5,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "total_time_min": 40,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মাছ হলুদ-লবণ মাখিয়ে হালকা ভেজে তুলুন।",
+          "instruction_en": "Rub fish with turmeric-salt and lightly fry.",
+          "duration_min": 6,
+          "heat": "medium-high"
+        },
+        {
+          "order": 2,
+          "instruction": "একই তেলে পেঁয়াজ ভাজুন।",
+          "instruction_en": "Fry onion in the same oil.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic and spices, cook.",
+          "duration_min": 4,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "আলু ও পানি দিয়ে ফুটিয়ে নিন।",
+          "instruction_en": "Add potato and water, bring to a boil.",
+          "duration_min": 10,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "মাছ ও কাঁচা মরিচ দিয়ে ৫ মিনিট রান্না করুন।",
+          "instruction_en": "Add fish and green chili, cook for 5 minutes.",
+          "duration_min": 5,
+          "heat": "medium"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Fish_curry_%28Meen_curry%29.JPG/500px-Fish_curry_%28Meen_curry%29.JPG",
+        "alt": "Traditional Bengali Macher Jhol (light fish curry)",
+        "alt_bn": "ঐতিহ্যবাহী তাজা মাছের পাতলা ঝোল",
+        "author": "Augustus Binu",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fish_curry_(Meen_curry).JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "prawn_malai_curry",
+      "dish": "চিংড়ি মালাইকারি",
+      "dish_en": "Prawn Malai Curry",
+      "category": "curry",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "চিংড়ি মাছ",
+          "name_en": "prawns",
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "name": "নারকেলের দুধ",
+          "name_en": "coconut milk",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ বাটা",
+          "name_en": "onion paste",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "আদা-রসুন বাটা",
+          "name_en": "ginger-garlic paste",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "তেজপাতা ও এলাচ",
+          "name_en": "bay leaf and cardamom",
+          "amount": 1,
+          "unit": "set"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "চিংড়ি পরিষ্কার করে হলুদ-লবণ মাখিয়ে রাখুন।",
+          "instruction_en": "Clean prawns and rub with turmeric-salt.",
+          "duration_min": 10,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে তেজপাতা-এলাচ ফোড়ন দিয়ে পেঁয়াজ বাটা কষান।",
+          "instruction_en": "Temper oil with bay leaf-cardamom, cook onion paste.",
+          "duration_min": 6,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা-রসুন বাটা ও গুঁড়া মসলা দিয়ে কষান।",
+          "instruction_en": "Add ginger-garlic paste and spices, cook.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "নারকেলের দুধ দিয়ে ফুটিয়ে নিন।",
+          "instruction_en": "Add coconut milk and bring to a simmer.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "চিংড়ি ও কাঁচা মরিচ দিয়ে ৫-৬ মিনিট রান্না করুন।",
+          "instruction_en": "Add prawns and green chili, cook 5-6 minutes.",
+          "duration_min": 6,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chingri_Malai_Curry_%28Prawn_Malai_Curry%29.jpg/500px-Chingri_Malai_Curry_%28Prawn_Malai_Curry%29.jpg",
+        "alt": "Chingri Malai Curry - Bengali prawns in aromatic coconut cream sauce",
+        "alt_bn": "নারকেল দুধে রান্না চিংড়ি মালাই কারি",
+        "author": "Kankana Saxena",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chingri_Malai_Curry_(Prawn_Malai_Curry).jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Coconut milk",
+          "ingredient_bn": "নারিকেলের দুধ",
+          "substitute": "Full-cream cow milk whisked with 1 tbsp heavy cream or cashew paste",
+          "substitute_bn": "ঘন দুধ ও ১ চামচ হেভি ক্রিম বা কাজুবাদাম বাটা",
+          "impact": "Maintains rich velvety gravy with lighter nutty aroma.",
+          "impact_bn": "ঝোল ঘন ও ক্রিমি থাকবে, নারিকেলের গন্ধের বদলে বাদামি সুবাস আসবে।"
+        },
+        {
+          "ingredient": "Ghee",
+          "ingredient_bn": "ঘি",
+          "substitute": "Unsalted butter or cooking oil with a drop of butter",
+          "substitute_bn": "বাটার বা সামান্য সয়াবিন তেল",
+          "impact": "Slight variation in royal aroma, rich taste remains intact.",
+          "impact_bn": "শাহী সুবাসে সামান্য তারতম্য হবে, তবে স্বাদ চমৎকার থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "veg_curry",
+      "dish": "মিক্সড সবজি",
+      "dish_en": "Mixed Vegetable Curry",
+      "category": "vegetable",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "আলু",
+          "name_en": "potato",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "গাজর",
+          "name_en": "carrot",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "বরবটি",
+          "name_en": "long beans",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ফুলকপি",
+          "name_en": "cauliflower",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন কুচি",
+          "name_en": "garlic, chopped",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "জিরা",
+          "name_en": "cumin seeds",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "total_time_min": 35,
+      "heat_level": "low-medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "সব সবজি ধুয়ে কেটে নিন।",
+          "instruction_en": "Wash and chop all vegetables.",
+          "duration_min": 10,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে জিরা ফোড়ন দিয়ে পেঁয়াজ-রসুন ভাজুন।",
+          "instruction_en": "Temper oil with cumin, fry onion-garlic.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "হলুদ ও লবণ দিয়ে সবজি দিয়ে নাড়ুন।",
+          "instruction_en": "Add turmeric, salt, and vegetables, stir.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "ঢেকে অল্প আঁচে সবজি নরম না হওয়া পর্যন্ত রান্না করুন।",
+          "instruction_en": "Cover and cook on low heat until vegetables are tender.",
+          "duration_min": 15,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mix_veg_sabzi.jpg/500px-Mix_veg_sabzi.jpg",
+        "alt": "Nutritious mixed vegetable curry with seasonal vegetables",
+        "alt_bn": "হালকা মসলায় রান্না পাঁচমিশালি সবজি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mix_veg_sabzi.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Cauliflower",
+          "ingredient_bn": "ফুলকপি",
+          "substitute": "Broccoli, cabbage, or knolkhol",
+          "substitute_bn": "ব্রকলি বা বাঁধাকপি",
+          "impact": "Slightly shorter cooking duration with crisp texture.",
+          "impact_bn": "রান্নার সময় ৩-৪ মিনিট কম লাগবে, ভিন্ন টেক্সচার আসবে।"
+        },
+        {
+          "ingredient": "Mustard oil",
+          "ingredient_bn": "সরিষার তেল",
+          "substitute": "Soybean or vegetable oil",
+          "substitute_bn": "সয়াবিন বা সূর্যমুখী তেল",
+          "impact": "Lighter vegetable aroma.",
+          "impact_bn": "মৃদু স্বাদ ও হালকা সুবাস থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "dal",
+      "dish": "মসুর ডাল",
+      "dish_en": "Red Lentil Dal",
+      "category": "dal",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মসুর ডাল",
+          "name_en": "red lentils (masoor dal)",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন কুচি",
+          "name_en": "garlic, chopped",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 20,
+      "total_time_min": 25,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "ডাল ধুয়ে পানি ও হলুদ দিয়ে সেদ্ধ করুন।",
+          "instruction_en": "Wash lentils, add water and turmeric, boil.",
+          "duration_min": 15,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "ডাল নরম হলে লবণ ও কাঁচা মরিচ দিন।",
+          "instruction_en": "Once soft, add salt and green chili.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আলাদা প্যানে তেলে পেঁয়াজ-রসুন ভেজে ডালে ছেড়ে দিন (বাগার)।",
+          "instruction_en": "In a separate pan, fry onion-garlic in oil and pour over the dal (tempering).",
+          "duration_min": 4,
+          "heat": "medium"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Dal_Tadka_-_Kolkata_2012-07-28_4970.JPG/500px-Dal_Tadka_-_Kolkata_2012-07-28_4970.JPG",
+        "alt": "Tempered Bengali yellow lentil dal with cumin and ghee",
+        "alt_bn": "ঘি ও জিরার ফোড়ন দেওয়া সুস্বাদু মসুর ডাল",
+        "author": "Biswarup Ganguly",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dal_Tadka_-_Kolkata_2012-07-28_4970.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Red lentils (Masoor dal)",
+          "ingredient_bn": "মসুর ডাল",
+          "substitute": "Mung dal or split yellow peas (Chana dal)",
+          "substitute_bn": "মুগ ডাল অথবা ছোলার ডাল",
+          "impact": "Mung dal gives a sweet nutty aroma; requires light dry roasting first.",
+          "impact_bn": "মুগ ডাল আগে সামান্য ভেজে নিতে হয়, ঘন ও সুমিষ্ট সুবাস আসবে।"
+        },
+        {
+          "ingredient": "Panch phoron",
+          "ingredient_bn": "পাঁচফোড়ন",
+          "substitute": "Whole cumin seeds (Jeera) and dried red chili",
+          "substitute_bn": "আস্ত জিরা ও শুকনা মরিচ ফোড়ন",
+          "impact": "Cleaner single-spice cumin aroma rather than complex 5-spice blend.",
+          "impact_bn": "পাঁচফোড়নের বদলে জিরার খাঁটি সুবাস আসবে, চমৎকার স্বাদ হবে।"
+        }
+      ]
+    },
+    {
+      "id": "pulao",
+      "dish": "পোলাও",
+      "dish_en": "Pulao",
+      "category": "rice",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "পোলাওর চাল",
+          "name_en": "polao rice",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "আদা-রসুন বাটা",
+          "name_en": "ginger-garlic paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "এলাচ-দারুচিনি-তেজপাতা",
+          "name_en": "cardamom, cinnamon, bay leaf",
+          "amount": 1,
+          "unit": "set"
+        },
+        {
+          "name": "ঘি",
+          "name_en": "ghee",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "গরম পানি",
+          "name_en": "hot water",
+          "amount": 3.5,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 20,
+      "cook_time_min": 27,
+      "total_time_min": 47,
+      "heat_level": "low-medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "চাল ধুয়ে ২০ মিনিট ভিজিয়ে রেখে পানি ঝরিয়ে নিন।",
+          "instruction_en": "Wash rice, soak 20 minutes, then drain.",
+          "duration_min": 20,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "ঘি-তেলে গরম মসলা ফোড়ন দিন।",
+          "instruction_en": "Temper ghee-oil with whole spices.",
+          "duration_min": 2,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "পেঁয়াজ হালকা ভেজে আদা-রসুন বাটা দিন।",
+          "instruction_en": "Lightly fry onion, add ginger-garlic paste.",
+          "duration_min": 4,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "চাল দিয়ে ২-৩ মিনিট ভেজে নিন।",
+          "instruction_en": "Add rice and stir-fry for 2-3 minutes.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "গরম পানি, চিনি ও লবণ দিয়ে ঢেকে দিন।",
+          "instruction_en": "Add hot water, sugar, and salt; cover.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 6,
+          "instruction": "অল্প আঁচে চাল সেদ্ধ না হওয়া পর্যন্ত রাখুন।",
+          "instruction_en": "Cook on low heat until rice is done.",
+          "duration_min": 15,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Pulao_Rice.jpg/500px-Pulao_Rice.jpg",
+        "alt": "Aromatic Bengali Ghee Pulao garnished with fried onions",
+        "alt_bn": "ঘিয়ে ভাজা সুবাসিত বাংলা পোলাও",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pulao_Rice.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "ghee",
+          "ingredient_bn": "ঘি",
+          "substitute": "Mustard oil or regular cooking oil with a small knob of butter",
+          "substitute_bn": "সরিষার তেল বা মাখনযুক্ত সয়াবিন তেল",
+          "impact": "Flavor will differ; mustard oil adds signature pungent aroma, butter adds richness.",
+          "impact_bn": "ঘ্রাণে ভিন্নতা আসবে; সরিষার তেলে ঝাঁঝ ও বাটারে সুন্দর নমনীয়তা থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "chicken_biryani",
+      "dish": "মুরগির বিরিয়ানি",
+      "dish_en": "Chicken Biryani",
+      "category": "rice",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "বাসমতি চাল",
+          "name_en": "basmati rice",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "মুরগির মাংস",
+          "name_en": "chicken",
+          "amount": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ বেরেস্তা",
+          "name_en": "fried onion (beresta)",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "আদা-রসুন বাটা",
+          "name_en": "ginger-garlic paste",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "বিরিয়ানি মসলা",
+          "name_en": "biryani masala",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "দুধে ভেজানো জাফরান/দুধ",
+          "name_en": "milk (with saffron if available)",
+          "amount": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "ঘি",
+          "name_en": "ghee",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "গরম পানি",
+          "name_en": "hot water",
+          "amount": 3.5,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 50,
+      "cook_time_min": 48,
+      "total_time_min": 98,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মুরগি দই, আদা-রসুন বাটা ও বিরিয়ানি মসলা দিয়ে ম্যারিনেট করুন।",
+          "instruction_en": "Marinate chicken with yogurt, ginger-garlic paste, and biryani masala.",
+          "duration_min": 30,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "চাল ধুয়ে ২০ মিনিট ভিজিয়ে রাখুন।",
+          "instruction_en": "Wash rice and soak for 20 minutes.",
+          "duration_min": 20,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "ঘিতে ম্যারিনেট করা মাংস কষিয়ে নিন।",
+          "instruction_en": "Cook the marinated chicken in ghee.",
+          "duration_min": 15,
+          "heat": "medium-high"
+        },
+        {
+          "order": 4,
+          "instruction": "চাল আলাদাভাবে ৭০% সেদ্ধ করে পানি ঝরিয়ে নিন।",
+          "instruction_en": "Parboil rice separately to about 70% and drain.",
+          "duration_min": 10,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "মাংসের উপর চাল বিছিয়ে বেরেস্তা ও দুধ ছড়িয়ে দিন।",
+          "instruction_en": "Layer rice over the chicken, top with fried onion and milk.",
+          "duration_min": 3,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "ঢেকে দমে (অল্প আঁচে) ২০ মিনিট রাখুন।",
+          "instruction_en": "Cover and cook on very low heat (dum) for 20 minutes.",
+          "duration_min": 20,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22_Kacchi_Biryani_%22_at_Dhakaiya_Kacchi_Ghor%2C_Dhaka%2C_Bangladesh.jpg/500px-%22_Kacchi_Biryani_%22_at_Dhakaiya_Kacchi_Ghor%2C_Dhaka%2C_Bangladesh.jpg",
+        "alt": "Authentic Dhakaiya Chicken Biryani with aromatic rice and tender chicken",
+        "alt_bn": "ঐতিহ্যবাহী ঢাকাইয়া চিকেন বিরিয়ানি",
+        "author": "Sadik Shahriar",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%22_Kacchi_Biryani_%22_at_Dhakaiya_Kacchi_Ghor,_Dhaka,_Bangladesh.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        },
+        {
+          "ingredient": "ghee",
+          "ingredient_bn": "ঘি",
+          "substitute": "Mustard oil or regular cooking oil with a small knob of butter",
+          "substitute_bn": "সরিষার তেল বা মাখনযুক্ত সয়াবিন তেল",
+          "impact": "Flavor will differ; mustard oil adds signature pungent aroma, butter adds richness.",
+          "impact_bn": "ঘ্রাণে ভিন্নতা আসবে; সরিষার তেলে ঝাঁঝ ও বাটারে সুন্দর নমনীয়তা থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "khichuri",
+      "dish": "খিচুড়ি",
+      "dish_en": "Khichuri",
+      "category": "rice",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "চাল",
+          "name_en": "rice",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "মুগ ডাল",
+          "name_en": "moong dal",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "আলু",
+          "name_en": "potato (medium)",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "গাজর",
+          "name_en": "carrot",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন বাটা",
+          "name_en": "garlic paste",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "আদা বাটা",
+          "name_en": "ginger paste",
+          "amount": 1,
+          "unit": "tsp",
+          "alternatives": [
+            "skip if unavailable, flavor will be milder"
+          ]
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 5,
+          "unit": "cup"
+        },
+        {
+          "name": "ঘি",
+          "name_en": "ghee",
+          "amount": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 30,
+      "total_time_min": 40,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "চাল এবং ডাল ভালো করে ধুয়ে নিন।",
+          "instruction_en": "Wash the rice and dal thoroughly.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "একটি পাত্রে তেল গরম করে পেঁয়াজ কুচি ভেজে নিন।",
+          "instruction_en": "Heat oil in a pot and fry the chopped onion.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "আদা রসুন বাটা দিয়ে নেড়ে নিন।",
+          "instruction_en": "Add ginger-garlic paste and stir.",
+          "duration_min": 1,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "আলু ও গাজর দিয়ে কিছুক্ষণ ভেজে নিন।",
+          "instruction_en": "Add potato and carrot, fry for a few minutes.",
+          "duration_min": 4,
+          "heat": "medium"
+        },
+        {
+          "order": 5,
+          "instruction": "হলুদ, মরিচ ও লবণ দিয়ে নেড়ে নিন।",
+          "instruction_en": "Add turmeric, chili powder, and salt; stir well.",
+          "duration_min": 1,
+          "heat": "medium"
+        },
+        {
+          "order": 6,
+          "instruction": "চাল ও ডাল দিয়ে নেড়ে ২ মিনিট ভাজুন।",
+          "instruction_en": "Add rice and dal, stir-fry for 2 minutes.",
+          "duration_min": 2,
+          "heat": "medium"
+        },
+        {
+          "order": 7,
+          "instruction": "পানি দিয়ে ঢেকে দিন এবং মাঝারি আঁচে রান্না করুন।",
+          "instruction_en": "Add water, cover, and cook on medium heat.",
+          "duration_min": 20,
+          "heat": "medium"
+        },
+        {
+          "order": 8,
+          "instruction": "সবজি ও ডাল নরম হলে ঘি দিয়ে নামিয়ে পরিবেশন করুন।",
+          "instruction_en": "Once vegetables and dal are soft, finish with ghee and serve.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Khichudi_-_Kolkata_2011-06-11_3959.JPG/500px-Khichudi_-_Kolkata_2011-06-11_3959.JPG",
+        "alt": "Traditional Bengali Bhuna Khichuri cooked with rice, lentils and vegetables",
+        "alt_bn": "বৃষ্টির দিনে গরম ভুনা খিচুড়ি",
+        "author": "Biswarup Ganguly",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Khichudi_-_Kolkata_2011-06-11_3959.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "ghee",
+          "ingredient_bn": "ঘি",
+          "substitute": "Mustard oil or regular cooking oil with a small knob of butter",
+          "substitute_bn": "সরিষার তেল বা মাখনযুক্ত সয়াবিন তেল",
+          "impact": "Flavor will differ; mustard oil adds signature pungent aroma, butter adds richness.",
+          "impact_bn": "ঘ্রাণে ভিন্নতা আসবে; সরিষার তেলে ঝাঁঝ ও বাটারে সুন্দর নমনীয়তা থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "aloo_bhorta",
+      "dish": "আলু ভর্তা",
+      "dish_en": "Potato Bhorta",
+      "category": "bhorta",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "আলু",
+          "name_en": "potato",
+          "amount": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "সরিষার তেল",
+          "name_en": "mustard oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 0.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "ধনে পাতা",
+          "name_en": "coriander leaves",
+          "amount": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 20,
+      "total_time_min": 25,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "আলু সেদ্ধ করে খোসা ছাড়িয়ে নিন।",
+          "instruction_en": "Boil potatoes and peel.",
+          "duration_min": 18,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "আলু ভালো করে চটকে নিন।",
+          "instruction_en": "Mash the potatoes well.",
+          "duration_min": 2,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "পেঁয়াজ, কাঁচা মরিচ, তেল ও লবণ দিয়ে মেখে নিন।",
+          "instruction_en": "Mix in onion, green chili, oil, and salt.",
+          "duration_min": 3,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Aloo_Bhorta.jpg/500px-Aloo_Bhorta.jpg",
+        "alt": "Authentic Bangladeshi Aloo Bhorta with mustard oil and fried red chili",
+        "alt_bn": "খাঁটি সরিষার তেলে শুকনা মরিচ মাখানো আলু ভর্তা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aloo_Bhorta.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "mustard oil",
+          "ingredient_bn": "সরিষার তেল",
+          "substitute": "Soybean or sunflower cooking oil",
+          "substitute_bn": "সয়াবিন বা সূর্যমুখী তেল",
+          "impact": "Milder taste without the pungent mustard kick.",
+          "impact_bn": "সরিষার খাঁটি ঝাঁঝ থাকবে না, তবে রান্না স্বাভাবিক ও সুস্বাদু হবে।"
+        },
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "begun_bhorta",
+      "dish": "বেগুন ভর্তা",
+      "dish_en": "Eggplant Bhorta",
+      "category": "bhorta",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "বেগুন",
+          "name_en": "eggplant",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "সরিষার তেল",
+          "name_en": "mustard oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 0.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 15,
+      "total_time_min": 20,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "বেগুন সরাসরি আঁচে বা চুলায় পুড়িয়ে নিন।",
+          "instruction_en": "Roast the eggplant directly over a flame until soft.",
+          "duration_min": 12,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "পোড়া খোসা ফেলে দিয়ে বেগুন চটকে নিন।",
+          "instruction_en": "Remove the charred skin and mash the eggplant.",
+          "duration_min": 3,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "পেঁয়াজ, কাঁচা মরিচ, তেল ও লবণ দিয়ে মেখে নিন।",
+          "instruction_en": "Mix in onion, green chili, oil, and salt.",
+          "duration_min": 3,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Baingan_Bharta.jpg/500px-Baingan_Bharta.jpg",
+        "alt": "Smoky fire-roasted eggplant Begun Bhorta with onions and chilies",
+        "alt_bn": "পোড়া বেগুনের সুস্বাদু বেগুন ভর্তা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Baingan_Bharta.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "mustard oil",
+          "ingredient_bn": "সরিষার তেল",
+          "substitute": "Soybean or sunflower cooking oil",
+          "substitute_bn": "সয়াবিন বা সূর্যমুখী তেল",
+          "impact": "Milder taste without the pungent mustard kick.",
+          "impact_bn": "সরিষার খাঁটি ঝাঁঝ থাকবে না, তবে রান্না স্বাভাবিক ও সুস্বাদু হবে।"
+        }
+      ]
+    },
+    {
+      "id": "chicken_soup",
+      "dish": "মুরগির স্যুপ",
+      "dish_en": "Chicken Soup",
+      "category": "soup",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মুরগির মাংস",
+          "name_en": "chicken (boneless)",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "গাজর কুচি",
+          "name_en": "carrot, diced",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ভুট্টা দানা",
+          "name_en": "corn kernels",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন কুচি",
+          "name_en": "garlic, chopped",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "কর্নফ্লাওয়ার",
+          "name_en": "cornflour",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "গোলমরিচ গুঁড়া",
+          "name_en": "black pepper powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "পানি/স্টক",
+          "name_en": "water/stock",
+          "amount": 5,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "total_time_min": 30,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "মুরগি ছোট টুকরো করে পানি দিয়ে সেদ্ধ করুন।",
+          "instruction_en": "Cut chicken into small pieces and boil in water.",
+          "duration_min": 12,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "গাজর, ভুট্টা ও রসুন দিয়ে আরও কিছুক্ষণ ফুটান।",
+          "instruction_en": "Add carrot, corn, and garlic, simmer further.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "কর্নফ্লাওয়ার পানিতে গুলে স্যুপে দিয়ে ঘন করুন।",
+          "instruction_en": "Mix cornflour with water and stir in to thicken.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "লবণ ও গোলমরিচ দিয়ে নামিয়ে নিন।",
+          "instruction_en": "Season with salt and pepper, then serve.",
+          "duration_min": 1,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_soup.jpg/500px-Chicken_soup.jpg",
+        "alt": "Warm nourishing Bengali style clear chicken soup with ginger",
+        "alt_bn": "পুষ্টিকর আদা ও গোলমরিচ দেওয়া চিকেন স্যুপ",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chicken_soup.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Bone-in chicken",
+          "ingredient_bn": "মুরগির মাংস",
+          "substitute": "Boneless chicken breast or shredded boiled chicken",
+          "substitute_bn": "হাড় ছাড়া মুরগির বুকের মাংস",
+          "impact": "Stock is lighter with lower collagen richness.",
+          "impact_bn": "স্যুপের স্টক হালকা হবে, তেল কম থাকবে।"
+        },
+        {
+          "ingredient": "Cornstarch",
+          "ingredient_bn": "কর্নফ্লাওয়ার",
+          "substitute": "Wheat flour whisked with 2 tbsp cold water, or potato starch",
+          "substitute_bn": "ময়দা ও ঠাণ্ডা পানির মিশ্রণ বা আলুর স্টার্চ",
+          "impact": "Gives appropriate thickness with slight opacity.",
+          "impact_bn": "স্যুপ যথাযথ ঘন হবে, রং সামান্য ঘোলাটে হতে পারে।"
+        }
+      ]
+    },
+    {
+      "id": "veg_soup",
+      "dish": "সবজি স্যুপ",
+      "dish_en": "Mixed Vegetable Soup",
+      "category": "soup",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "গাজর",
+          "name_en": "carrot",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "বাঁধাকপি কুচি",
+          "name_en": "cabbage, shredded",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "মটরশুঁটি",
+          "name_en": "green peas",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "রসুন কুচি",
+          "name_en": "garlic, chopped",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "কর্নফ্লাওয়ার",
+          "name_en": "cornflour",
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "সয়া সস",
+          "name_en": "soy sauce",
+          "amount": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "লবণ ও গোলমরিচ",
+          "name_en": "salt and pepper",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 4,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "total_time_min": 25,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "সব সবজি ছোট টুকরো করে কেটে নিন।",
+          "instruction_en": "Chop all vegetables into small pieces.",
+          "duration_min": 8,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "পানিতে রসুন ও সবজি দিয়ে ফুটান।",
+          "instruction_en": "Boil vegetables with garlic in water.",
+          "duration_min": 8,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "কর্নফ্লাওয়ার গুলে দিয়ে ঘন করুন।",
+          "instruction_en": "Mix in cornflour slurry to thicken.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 4,
+          "instruction": "সয়া সস, লবণ ও গোলমরিচ দিয়ে নামান।",
+          "instruction_en": "Season with soy sauce, salt, and pepper, then serve.",
+          "duration_min": 1,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vegetable_Soup.jpg/500px-Vegetable_Soup.jpg",
+        "alt": "Healthy vegetable soup with carrots, beans and sweet corn",
+        "alt_bn": "তাজা রঙিন সবজির হালকা স্যুপ",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vegetable_Soup.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "French beans",
+          "ingredient_bn": "শিম / বিনস",
+          "substitute": "Green peas or sweet corn",
+          "substitute_bn": "মটরশুঁটি বা মিষ্টি ভুট্টা",
+          "impact": "Adds natural sweetness and soft bite.",
+          "impact_bn": "মিষ্টি স্বাদ ও নরম টেক্সচার যোগ হবে।"
+        },
+        {
+          "ingredient": "Black pepper",
+          "ingredient_bn": "গোলমরিচ গুঁড়া",
+          "substitute": "White pepper powder",
+          "substitute_bn": "সাদা গোলমরিচ গুঁড়া",
+          "impact": "Keeps broth clear with earthy heat.",
+          "impact_bn": "স্যুপের পরিষ্কার রং বজায় থাকবে, সুষম ঝাল আসবে।"
+        }
+      ]
+    },
+    {
+      "id": "egg_bhurji",
+      "dish": "ডিম ভুনা",
+      "dish_en": "Egg Bhurji",
+      "category": "quick",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "ডিম",
+          "name_en": "eggs",
+          "amount": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili, chopped",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "হলুদ গুঁড়া",
+          "name_en": "turmeric powder",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 0.5,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল",
+          "name_en": "oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "total_time_min": 15,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "ডিম ফেটিয়ে লবণ ও হলুদ মিশিয়ে নিন।",
+          "instruction_en": "Beat eggs with salt and turmeric.",
+          "duration_min": 2,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "তেলে পেঁয়াজ ও কাঁচা মরিচ ভেজে নিন।",
+          "instruction_en": "Fry onion and green chili in oil.",
+          "duration_min": 3,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "ডিমের মিশ্রণ দিয়ে নেড়ে ভুনা করুন।",
+          "instruction_en": "Add the egg mixture and stir-fry until done.",
+          "duration_min": 5,
+          "heat": "medium"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Egg_Bhurji.jpg/500px-Egg_Bhurji.jpg",
+        "alt": "Spiced Bengali scrambled egg bhurji with onions and green chilies",
+        "alt_bn": "পেঁয়াজ ও কাঁচামরিচে ভাজা ঝাল ডিম ভুর্জি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Egg_Bhurji.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Green chili",
+          "ingredient_bn": "কাঁচামরিচ",
+          "substitute": "Coarsely ground black pepper or red pepper flakes",
+          "substitute_bn": "গোলমরিচ গুঁড়া বা চিলি ফ্লেক্স",
+          "impact": "Smoky peppery heat instead of fresh vegetal spice.",
+          "impact_bn": "কাঁচামরিচের সুবাসের বদলে মনোরম গোলমরিচের ঝাল আসবে।"
+        },
+        {
+          "ingredient": "Butter",
+          "ingredient_bn": "বাটার",
+          "substitute": "Ghee or cooking oil",
+          "substitute_bn": "ঘি বা সয়াবিন তেল",
+          "impact": "Ghee adds authentic aroma; oil yields a lighter texture.",
+          "impact_bn": "ঘি দিলে শাহী সুবাস হবে, তেল দিলে হালকা টেক্সচার হবে।"
+        }
+      ]
+    },
+    {
+      "id": "singara",
+      "dish": "সিঙ্গারা",
+      "dish_en": "Singara (Samosa)",
+      "category": "snack",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "ময়দা",
+          "name_en": "all-purpose flour",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "আলু সেদ্ধ",
+          "name_en": "boiled potato, mashed",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "মটরশুঁটি",
+          "name_en": "green peas",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "জিরা",
+          "name_en": "cumin seeds",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "মরিচ গুঁড়া",
+          "name_en": "chili powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল (ময়ানের জন্য)",
+          "name_en": "oil (for dough)",
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "তেল (ভাজার জন্য)",
+          "name_en": "oil (for frying)",
+          "amount": 2,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 30,
+      "cook_time_min": 25,
+      "total_time_min": 55,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "ময়দা, তেল ও লবণ দিয়ে শক্ত খামির তৈরি করুন।",
+          "instruction_en": "Make a firm dough with flour, oil, and salt.",
+          "duration_min": 10,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "আলু, মটরশুঁটি, পেঁয়াজ ও মসলা দিয়ে পুর তৈরি করুন।",
+          "instruction_en": "Make the filling with potato, peas, onion, and spices.",
+          "duration_min": 10,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "খামির বেলে ত্রিভুজ আকারে পুর ভরে মুড়ে নিন।",
+          "instruction_en": "Roll dough, fill with the mixture, and fold into triangles.",
+          "duration_min": 20,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "গরম তেলে সোনালি করে ভেজে নিন।",
+          "instruction_en": "Deep fry in hot oil until golden.",
+          "duration_min": 15,
+          "heat": "medium-high"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Singara_01.jpg/500px-Singara_01.jpg",
+        "alt": "Crispy golden Bengali singara stuffed with spiced potato filling",
+        "alt_bn": "মুচমুচে খাঁটি ফুলকপি-আলুর বাংলা সিঙ্গাড়া",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Singara_01.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Peanuts",
+          "ingredient_bn": "ভাজা চিনাবাদাম",
+          "substitute": "Cashew nuts or green peas",
+          "substitute_bn": "কাজুবাদাম বা কচি মটরশুঁটি",
+          "impact": "Richer crunch and texture inside potato filling.",
+          "impact_bn": "আলুর পুরের ভেতর চমৎকার মুচমুচে টেক্সচার এনে দেবে।"
+        },
+        {
+          "ingredient": "Ghee in dough",
+          "ingredient_bn": "ময়দার ময়ানের ঘি",
+          "substitute": "Hot refined vegetable oil",
+          "substitute_bn": "হালকা গরম সয়াবিন তেল",
+          "impact": "Maintains signature crisp flaky crust (khasta texture).",
+          "impact_bn": "খাস্তা ও মুচমুচে টেক্সচার পুরোপুরি বজায় থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "piyaju",
+      "dish": "পিঁয়াজু",
+      "dish_en": "Piyaju (Onion Fritters)",
+      "category": "snack",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "মুসুর ডাল বাটা",
+          "name_en": "ground lentils (masoor dal)",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "পেঁয়াজ কুচি",
+          "name_en": "onion, sliced",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "কাঁচা মরিচ কুচি",
+          "name_en": "green chili, chopped",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ধনে পাতা কুচি",
+          "name_en": "coriander leaves, chopped",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "লবণ",
+          "name_en": "salt",
+          "amount": 1,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "তেল (ভাজার জন্য)",
+          "name_en": "oil (for frying)",
+          "amount": 2,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 20,
+      "cook_time_min": 15,
+      "total_time_min": 35,
+      "heat_level": "medium-high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "ডাল ২ ঘণ্টা ভিজিয়ে রেখে বেটে নিন।",
+          "instruction_en": "Soak lentils for 2 hours and grind.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "পেঁয়াজ, মরিচ, ধনেপাতা ও লবণ দিয়ে মিশিয়ে নিন।",
+          "instruction_en": "Mix in onion, chili, coriander leaves, and salt.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "গরম তেলে ছোট ছোট বলা দিয়ে ভেজে নিন।",
+          "instruction_en": "Drop spoonfuls into hot oil and fry until crisp.",
+          "duration_min": 12,
+          "heat": "medium-high"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Piyaju_-_Kolkata_2015-08-01_1804.JPG/500px-Piyaju_-_Kolkata_2015-08-01_1804.JPG",
+        "alt": "Crunchy red lentil and onion fritters (Piyaju)",
+        "alt_bn": "মুচমুচে ডাল ও পেঁয়াজের খাঁটি পিঁয়াজু",
+        "author": "Biswarup Ganguly",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Piyaju_-_Kolkata_2015-08-01_1804.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "fresh coriander",
+          "ingredient_bn": "ধনেপাতা",
+          "substitute": "Pinch of roasted cumin powder at the finish",
+          "substitute_bn": "নামানোর আগে সামান্য ভাজা জিরা গুঁড়া",
+          "impact": "Replaces herbal freshness with warm earthy aroma.",
+          "impact_bn": "তাজা পাতার বদলে সুন্দর সুবাসিত মসলাযুক্ত সুবাস দেবে।"
+        }
+      ]
+    },
+    {
+      "id": "payesh",
+      "dish": "পায়েস",
+      "dish_en": "Payesh (Rice Pudding)",
+      "category": "dessert",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "দুধ",
+          "name_en": "milk",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "পোলাওর চাল",
+          "name_en": "rice",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "এলাচ",
+          "name_en": "cardamom",
+          "amount": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "কিশমিশ",
+          "name_en": "raisins",
+          "amount": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "বাদাম কুচি",
+          "name_en": "chopped nuts",
+          "amount": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 40,
+      "total_time_min": 50,
+      "heat_level": "low-medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "দুধ ফুটিয়ে ঘন করতে শুরু করুন।",
+          "instruction_en": "Bring milk to a boil and start reducing it.",
+          "duration_min": 15,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "ধুয়ে রাখা চাল ও এলাচ দিয়ে দিন।",
+          "instruction_en": "Add washed rice and cardamom.",
+          "duration_min": 2,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "অল্প আঁচে নাড়তে নাড়তে ঘন করুন।",
+          "instruction_en": "Simmer on low heat, stirring often, until thickened.",
+          "duration_min": 20,
+          "heat": "low"
+        },
+        {
+          "order": 4,
+          "instruction": "চিনি, কিশমিশ ও বাদাম দিয়ে আরও কিছুক্ষণ রান্না করুন।",
+          "instruction_en": "Add sugar, raisins, and nuts, cook a few more minutes.",
+          "duration_min": 3,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rice_kheer.jpg/500px-Rice_kheer.jpg",
+        "alt": "Traditional Bengali rice payesh cooked with thick milk, cardamom and raisins",
+        "alt_bn": "গোবিন্দভোগ চাল ও ঘন দুধের সুস্বাদু পায়েস",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rice_kheer.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Chinigura aromatic rice",
+          "ingredient_bn": "চিনিগুঁড়া সুগন্ধি চাল",
+          "substitute": "Kalijira, Gobindobhog, or Basmati rice",
+          "substitute_bn": "কালিজিরার চাল, গোবিন্দভোগ বা বাসমতি চাল",
+          "impact": "Signature sweet aroma preserved; cooking duration identical.",
+          "impact_bn": "মিষ্টি সুবাস বজায় থাকবে, রান্নার সময় একই থাকবে।"
+        },
+        {
+          "ingredient": "Cardamom",
+          "ingredient_bn": "এলাচ",
+          "substitute": "Cinnamon stick or pinch of nutmeg powder",
+          "substitute_bn": "দারুচিনি বা সামান্য জায়ফল গুঁড়া",
+          "impact": "Warm aromatic undertone.",
+          "impact_bn": "পায়েশে উষ্ণ মিষ্টি সুবাস ছড়াবে।"
+        }
+      ]
+    },
+    {
+      "id": "mishti_doi",
+      "dish": "মিষ্টি দই",
+      "dish_en": "Mishti Doi (Sweet Yogurt)",
+      "category": "dessert",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "দুধ",
+          "name_en": "milk",
+          "amount": 1,
+          "unit": "l"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "টক দইয়ের বীজ",
+          "name_en": "plain yogurt (starter culture)",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 30,
+      "total_time_min": 40,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "চিনি ক্যারামেল করে দুধে মিশিয়ে ফুটান।",
+          "instruction_en": "Caramelize sugar and mix into boiling milk.",
+          "duration_min": 15,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "দুধ ঘন হয়ে ঠান্ডা (কুসুম গরম) হলে দই মিশিয়ে দিন।",
+          "instruction_en": "Once reduced and lukewarm, whisk in the yogurt starter.",
+          "duration_min": 10,
+          "heat": "low"
+        },
+        {
+          "order": 3,
+          "instruction": "মাটির পাত্রে ঢেলে ৬-৮ ঘণ্টা গরম জায়গায় রেখে জমতে দিন।",
+          "instruction_en": "Pour into an earthen pot and set in a warm place for 6-8 hours.",
+          "duration_min": 5,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mishti_Doi_-_Kolkata_2013-05-18_7172.JPG/500px-Mishti_Doi_-_Kolkata_2013-05-18_7172.JPG",
+        "alt": "Traditional Bengali sweet yogurt served in earthen clay cup",
+        "alt_bn": "মাটির হাঁড়িতে পাতা মিষ্টি দই",
+        "author": "Biswarup Ganguly",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mishti_Doi_-_Kolkata_2013-05-18_7172.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        }
+      ]
+    },
+    {
+      "id": "cha",
+      "dish": "চা",
+      "dish_en": "Milk Tea",
+      "category": "drink",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "দুধ",
+          "name_en": "milk",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "চা পাতা",
+          "name_en": "tea leaves",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 2,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        }
+      ],
+      "prep_time_min": 2,
+      "cook_time_min": 8,
+      "total_time_min": 10,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "পানি ফুটিয়ে চা পাতা দিন।",
+          "instruction_en": "Boil water and add tea leaves.",
+          "duration_min": 3,
+          "heat": "high"
+        },
+        {
+          "order": 2,
+          "instruction": "দুধ ও চিনি দিয়ে ফুটিয়ে নিন।",
+          "instruction_en": "Add milk and sugar, bring to a boil.",
+          "duration_min": 5,
+          "heat": "medium"
+        },
+        {
+          "order": 3,
+          "instruction": "ছেঁকে কাপে ঢেলে পরিবেশন করুন।",
+          "instruction_en": "Strain and serve hot.",
+          "duration_min": 1,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/500px-Masala_Chai.JPG",
+        "alt": "Steaming cup of rich Bengali spiced milk tea",
+        "alt_bn": "আদা ও এলাচ দেওয়া খাঁটি দুধ চা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Full cream liquid milk",
+          "ingredient_bn": "তরল দুধ",
+          "substitute": "Full cream milk powder (3 tbsp dissolved in 1/2 cup warm water)",
+          "substitute_bn": "ঘন গুঁড়া দুধের মিশ্রণ",
+          "impact": "Creates extra thick, creamy, tea-stall style rich milk tea.",
+          "impact_bn": "চা অত্যন্ত ঘন, ক্রিমি ও টঙের দোকানের মতো দারুণ লালচে হবে।"
+        },
+        {
+          "ingredient": "Fresh ginger",
+          "ingredient_bn": "আদা",
+          "substitute": "Dry ginger powder (Sonth)",
+          "substitute_bn": "শুকনা আদা গুঁড়া",
+          "impact": "Sharp warm spice with soothing throat feel.",
+          "impact_bn": "গলা আরামদায়ী উষ্ণ ঝাঁঝ পাওয়া যাবে।"
+        }
+      ]
+    },
+    {
+      "id": "lebu_cha",
+      "dish": "লেবু চা",
+      "dish_en": "Lemon Tea",
+      "category": "drink",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "পানি",
+          "name_en": "water",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "চা পাতা",
+          "name_en": "tea leaves",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "লেবুর রস",
+          "name_en": "lemon juice",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "চিনি বা মধু",
+          "name_en": "sugar or honey",
+          "amount": 2,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "আদা কুচি",
+          "name_en": "ginger, sliced",
+          "amount": 1,
+          "unit": "tsp",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 2,
+      "cook_time_min": 6,
+      "total_time_min": 8,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "পানি ফুটিয়ে চা পাতা ও আদা দিন।",
+          "instruction_en": "Boil water and add tea leaves and ginger.",
+          "duration_min": 4,
+          "heat": "high"
+        },
+        {
+          "order": 2,
+          "instruction": "ছেঁকে কাপে ঢেলে লেবুর রস ও চিনি মেশান।",
+          "instruction_en": "Strain into a cup and stir in lemon juice and sugar.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Lemon_tea.jpg/500px-Lemon_tea.jpg",
+        "alt": "Refreshing Bengali lemon tea with black salt and spices",
+        "alt_bn": "বিট লবণ ও তাজা লেবু চিপে তৈরি লেবু চা",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Lemon_tea.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Fresh lemon juice",
+          "ingredient_bn": "লেবুর রস",
+          "substitute": "Green lime juice or Kaffir lime (Kagoji lebu)",
+          "substitute_bn": "কাগজি লেবু বা সবুজ বাতাবি লেবুর রস",
+          "impact": "Intensely fragrant floral citrus aroma with refreshing acidity.",
+          "impact_bn": "কাগজি লেবুর তীব্র মিষ্টি সুবাস ও সতেজ টক ভাব এনে দেবে।"
+        },
+        {
+          "ingredient": "Black salt (Bit lobon)",
+          "ingredient_bn": "বিট লবণ",
+          "substitute": "Rock salt with a pinch of chat masala",
+          "substitute_bn": "সাধারণ লবণ ও সামান্য চাট মসলা",
+          "impact": "Tangy savory balance preserved.",
+          "impact_bn": "চমৎকার মুখরোচক টক-ঝাল স্বাদ বজায় থাকবে।"
+        }
+      ]
+    },
+    {
+      "id": "dalgona_coffee",
+      "dish": "ডালগোনা কফি",
+      "dish_en": "Dalgona Coffee",
+      "category": "drink",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "ইনস্ট্যান্ট কফি",
+          "name_en": "instant coffee",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "গরম পানি",
+          "name_en": "hot water",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "দুধ (ঠান্ডা)",
+          "name_en": "milk (cold)",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "বরফ",
+          "name_en": "ice",
+          "amount": 1,
+          "unit": "cup",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 5,
+      "total_time_min": 10,
+      "heat_level": null,
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "কফি, চিনি ও গরম পানি একসাথে ফেনা হওয়া পর্যন্ত ফেটান।",
+          "instruction_en": "Whisk coffee, sugar, and hot water until fluffy and thick.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "গ্লাসে দুধ (ও চাইলে বরফ) ঢেলে উপরে ফেনা দিয়ে দিন।",
+          "instruction_en": "Pour milk (and ice, if using) into a glass, top with the whipped coffee.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dalgona_coffee_at_home.jpg/500px-Dalgona_coffee_at_home.jpg",
+        "alt": "Whipped frothy Dalgona coffee layered over chilled milk",
+        "alt_bn": "ঘন ফোমি ডালগোনা কফি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dalgona_coffee_at_home.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "White granulated sugar",
+          "ingredient_bn": "চিনি",
+          "substitute": "Brown sugar or powdered sugar",
+          "substitute_bn": "বাদামি চিনি বা আইসিং সুগার",
+          "impact": "Rich caramel notes in the whipped coffee foam.",
+          "impact_bn": "কফির ফোমে চমৎকার ক্যারামেল স্বাদ ও গাড় রং তৈরি হবে।"
+        },
+        {
+          "ingredient": "Instant coffee",
+          "ingredient_bn": "ইনস্ট্যান্ট কফি",
+          "substitute": "Concentrated espresso reduction",
+          "substitute_bn": "ঘন এসপ্রেসো কফি ডিককশন",
+          "impact": "Deep roasted flavor; whip may take slightly longer.",
+          "impact_bn": "তীব্র কফির স্বাদ পাওয়া যাবে; ফোম হতে সামান্য বেশি সময় লাগতে পারে।"
+        }
+      ]
+    },
+    {
+      "id": "iced_coffee",
+      "dish": "আইসড কফি",
+      "dish_en": "Iced Coffee",
+      "category": "drink",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "ইনস্ট্যান্ট কফি",
+          "name_en": "instant coffee",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "গরম পানি",
+          "name_en": "hot water",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "দুধ (ঠান্ডা)",
+          "name_en": "milk (cold)",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 2,
+          "unit": "tsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "বরফ",
+          "name_en": "ice cubes",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "total_time_min": 5,
+      "heat_level": null,
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "গরম পানিতে কফি ও চিনি গুলে নিন।",
+          "instruction_en": "Dissolve coffee and sugar in hot water.",
+          "duration_min": 2,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "গ্লাসে বরফ দিয়ে কফি মিশ্রণ ও ঠান্ডা দুধ ঢেলে দিন।",
+          "instruction_en": "Fill a glass with ice, pour in the coffee mixture and cold milk.",
+          "duration_min": 2,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "নেড়ে পরিবেশন করুন।",
+          "instruction_en": "Stir and serve.",
+          "duration_min": 1,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Iced_Coffee.jpg/500px-Iced_Coffee.jpg",
+        "alt": "Chilled iced coffee with creamy milk and ice cubes",
+        "alt_bn": "বরফ ঠান্ডা সুস্বাদু কোল্ড কফি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Iced_Coffee.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Whole cow milk",
+          "ingredient_bn": "দুধ",
+          "substitute": "Oat milk, almond milk, or condensed milk",
+          "substitute_bn": "ওট মিল্ক, বাদাম দুধ অথবা কনডেন্সড মিল্ক",
+          "impact": "Condensed milk gives Vietnamese iced coffee sweetness; oat milk gives vegan creaminess.",
+          "impact_bn": "কনডেন্সড মিল্ক দিলে ভিয়েতনামিজ স্টাইল স্বাদ হবে, ওট মিল্ক দিলে ভেগান ও ক্রিমি হবে।"
+        },
+        {
+          "ingredient": "Granulated sugar",
+          "ingredient_bn": "চিনি",
+          "substitute": "Vanilla syrup or caramel sauce",
+          "substitute_bn": "ভ্যানিলা সিরাপ বা মধু",
+          "impact": "Adds subtle aromatic sweetness.",
+          "impact_bn": "মনোরম সুবাস ও মিষ্টি স্বাদ যোগ হবে।"
+        }
+      ]
+    },
+    {
+      "id": "borhani",
+      "dish": "বোরহানি",
+      "dish_en": "Borhani (Spiced Yogurt Drink)",
+      "category": "drink",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "পুদিনা পাতা",
+          "name_en": "mint leaves",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "কাঁচা মরিচ",
+          "name_en": "green chili",
+          "amount": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ভাজা জিরা গুঁড়া",
+          "name_en": "roasted cumin powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "বিট লবণ",
+          "name_en": "black salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 1,
+          "unit": "tbsp",
+          "note": "adjust to taste"
+        },
+        {
+          "name": "ঠান্ডা পানি",
+          "name_en": "cold water",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "total_time_min": 10,
+      "heat_level": null,
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "পুদিনা পাতা ও কাঁচা মরিচ বেটে নিন।",
+          "instruction_en": "Grind mint leaves and green chili into a paste.",
+          "duration_min": 5,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "দই, পানি, মসলা ও বাটা মিশিয়ে ব্লেন্ড করুন।",
+          "instruction_en": "Blend yogurt, water, spices, and the paste together.",
+          "duration_min": 3,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "ঠান্ডা করে পরিবেশন করুন।",
+          "instruction_en": "Chill and serve cold.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Borhani.JPG/500px-Borhani.JPG",
+        "alt": "Traditional Dhakaiya Borhani spiced yogurt beverage",
+        "alt_bn": "বিয়েবাড়ির স্পেশাল পুদিনা ও জিরা দেওয়া বোরহানি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Borhani.JPG"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        }
+      ]
+    },
+    {
+      "id": "doi_ghol",
+      "dish": "দই ঘোল",
+      "dish_en": "Doi Ghol (Yogurt Lassi)",
+      "category": "drink",
+      "base_servings": 4,
+      "ingredients": [
+        {
+          "name": "টক দই",
+          "name_en": "plain yogurt",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "ঠান্ডা পানি",
+          "name_en": "cold water",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "চিনি বা লবণ",
+          "name_en": "sugar or salt",
+          "amount": 2,
+          "unit": "tbsp",
+          "note": "pick one, adjust to taste"
+        },
+        {
+          "name": "বরফ",
+          "name_en": "ice",
+          "amount": 0.5,
+          "unit": "cup",
+          "optional": true
+        }
+      ],
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "total_time_min": 5,
+      "heat_level": null,
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "দই ও পানি একসাথে ব্লেন্ড করুন।",
+          "instruction_en": "Blend yogurt and water together.",
+          "duration_min": 3,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "চিনি বা লবণ মিশিয়ে বরফসহ পরিবেশন করুন।",
+          "instruction_en": "Stir in sugar or salt, serve with ice.",
+          "duration_min": 2,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chaas_served_in_traditional_earthen_glasses.jpg/500px-Chaas_served_in_traditional_earthen_glasses.jpg",
+        "alt": "Refreshing cold yogurt ghol with mint and black salt",
+        "alt_bn": "গরমে পেট ঠান্ডা রাখার ঐতিহ্যবাহী দই ঘোল",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chaas_served_in_traditional_earthen_glasses.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "plain yogurt",
+          "ingredient_bn": "টক দই",
+          "substitute": "1 tbsp lemon juice mixed with 3 tbsp milk",
+          "substitute_bn": "১ টেবিল চামচ লেবুর রস ও ৩ টেবিল চামচ দুধ",
+          "impact": "Maintains proper acidity and tenderizing function, with slightly thinner gravy.",
+          "impact_bn": "মাংস নরম ও সঠিক টক ভাব বজায় রাখে, ঝোল সামান্য হালকা হতে পারে।"
+        }
+      ]
+    },
+    {
+      "id": "chocolate_milk",
+      "dish": "চকলেট মিল্ক",
+      "dish_en": "Hot Chocolate Milk",
+      "category": "drink",
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "name": "দুধ",
+          "name_en": "milk",
+          "amount": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "কোকো পাউডার",
+          "name_en": "cocoa powder",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "চিনি",
+          "name_en": "sugar",
+          "amount": 2,
+          "unit": "tbsp",
+          "note": "adjust to taste"
+        }
+      ],
+      "prep_time_min": 2,
+      "cook_time_min": 8,
+      "total_time_min": 10,
+      "heat_level": "medium",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "দুধ হালকা গরম করুন।",
+          "instruction_en": "Warm the milk gently.",
+          "duration_min": 4,
+          "heat": "medium"
+        },
+        {
+          "order": 2,
+          "instruction": "কোকো পাউডার ও চিনি মিশিয়ে ভালোভাবে গুলিয়ে নিন।",
+          "instruction_en": "Whisk in cocoa powder and sugar until fully dissolved.",
+          "duration_min": 4,
+          "heat": "low"
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Glass_of_chocolate_milk.jpg/500px-Glass_of_chocolate_milk.jpg",
+        "alt": "Chilled chocolate milk drink",
+        "alt_bn": "চকলেট মিল্ক শেক",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Glass_of_chocolate_milk.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Cocoa powder",
+          "ingredient_bn": "কোকো পাউডার",
+          "substitute": "Melted dark chocolate or chocolate syrup",
+          "substitute_bn": "গলানো ডার্ক চকলেট বা চকলেট সিরাপ",
+          "impact": "Richer, thicker texture with glossy chocolate body.",
+          "impact_bn": "চকলেটের গভীর রিচ স্বাদ ও ঘন টেক্সচার আসবে।"
+        },
+        {
+          "ingredient": "Dairy milk",
+          "ingredient_bn": "দুধ",
+          "substitute": "Soy milk or almond milk",
+          "substitute_bn": "সয়া দুধ বা আমন্ড মিল্ক",
+          "impact": "100% plant-based with light nutty finish.",
+          "impact_bn": "ল্যাকটোজ-মুক্ত ভেগান অপশন, হজমে সহজ হবে।"
+        }
+      ]
+    },
+    {
+      "id": "americano",
+      "dish": "আমেরিকানো",
+      "dish_en": "Americano",
+      "category": "drink",
+      "base_servings": 1,
+      "ingredients": [
+        {
+          "name": "এসপ্রেসো/কড়া কফি",
+          "name_en": "espresso or strong coffee",
+          "amount": 2,
+          "unit": "shot"
+        },
+        {
+          "name": "গরম পানি",
+          "name_en": "hot water",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "prep_time_min": 2,
+      "cook_time_min": 3,
+      "total_time_min": 5,
+      "heat_level": "high",
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "কাপে গরম পানি নিন।",
+          "instruction_en": "Pour hot water into a cup.",
+          "duration_min": 1,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "উপরে এসপ্রেসো/কড়া কফি ঢেলে দিন।",
+          "instruction_en": "Pour espresso or strong coffee on top.",
+          "duration_min": 1,
+          "heat": null
+        }
+      ],
+      "source": {
+        "type": "curated_catalog",
+        "name": "Pachika Traditional Bangladeshi Culinary Archive",
+        "attribution": "Authentic Bangladeshi traditional family culinary recipe",
+        "is_ai_generated": false,
+        "source_url": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Caff%C3%A8_Americano.jpg/500px-Caff%C3%A8_Americano.jpg",
+        "alt": "Rich freshly brewed hot black Americano coffee",
+        "alt_bn": "গরম ব্ল্যাক কফি / আমেরিকান কফি",
+        "author": "Wikimedia Commons contributors",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Caff%C3%A8_Americano.jpg"
+      },
+      "substitutions": [
+        {
+          "ingredient": "Espresso roast coffee",
+          "ingredient_bn": "এসপ্রেসো কফি",
+          "substitute": "Strong French press brew or Moka pot coffee",
+          "substitute_bn": "মোকা পট বা ফ্রেঞ্চ প্রেসের স্ট্রং কফি",
+          "impact": "Robust full-bodied cup with less crema but authentic roasted punch.",
+          "impact_bn": "ক্রিমা সামান্য কম হলেও গভীর রোস্টেড স্বাদ চমৎকার থাকবে।"
+        }
+      ]
+    }
+  ]
+}
