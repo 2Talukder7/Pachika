@@ -6,23 +6,7 @@ A Bangladeshi cooking assistant that helps you discover recipes using ingredient
 
 
 
-\## Screenshots
 
-
-
-| Home | Chat |
-
-|---|---|
-
-| !\[Home](docs/screenshots/01-home.png) | !\[Chat](docs/screenshots/03-chat.png) |
-
-
-
-| Recipe Search | Recipe Card |
-
-|---|---|
-
-| !\[Search](docs/screenshots/10-recipe-results.png) | !\[Recipe](docs/screenshots/11-recipe-card.png) |
 
 \## Features
 
